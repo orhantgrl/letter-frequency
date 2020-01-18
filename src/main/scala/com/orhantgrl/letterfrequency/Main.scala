@@ -8,7 +8,7 @@ package com.orhantgrl.letterfrequency
 class Main() {
   def calculate(str: String) {
     val words: Array[Char] = str.toCharArray
-    var states = collection.mutable.Map[Char, Int]()
+    val states = collection.mutable.Map[Char, Int]()
 
     for (w <- words) {
       if (states contains w) {
@@ -28,6 +28,5 @@ class Main() {
 
 object Run extends App {
   val str = "ScalaProgramming"
-  var main = new Main()
-  main.calculate(str)
+  new Main().calculate(str)
 }
