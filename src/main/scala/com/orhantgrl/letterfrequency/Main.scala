@@ -2,13 +2,14 @@ package com.orhantgrl.letterfrequency
 
 /**
  * @author orhantgrl
- * created on 01/18/20.
+ *         created on 01/18/20.
  */
 
 class Main() {
   def calculate(str: String) {
     val words: Array[Char] = str.toCharArray
     var states = collection.mutable.Map[Char, Int]()
+
     for (w <- words) {
       if (states contains w) {
         states += (w -> (states(w) + 1))
