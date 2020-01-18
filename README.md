@@ -1,5 +1,7 @@
 # Letter Frequency
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d570bcb7c42249fabd40b8c2ef35b83e)](https://app.codacy.com/manual/orhantgrl/letter-frequency?utm_source=github.com&utm_medium=referral&utm_content=orhantgrl/letter-frequency&utm_campaign=Badge_Grade_Settings)
+
 
 
 Input : 
